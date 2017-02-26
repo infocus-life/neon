@@ -1,0 +1,18 @@
+.header {
+  height: 20px;
+  border: 1px solid black;
+  color: black;
+  background-color: pink;
+}
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 20px;
+  border: 1px solid black;
+}
+.footer a {
+  color: black;
+  background-color: pink;
+}

@@ -1,0 +1,41 @@
+body {
+  background-color: black;
+  color: white;
+}
+.block {
+  width: 120px;
+  height: 120px;
+  float: left;
+  border-radius: 5px;
+}
+
+#d1 {
+  background-color: #FF4066; /* Neon Pink */
+}
+#d2 {
+  background-color: #00FF00; /* Neon Green */
+}
+#d3 {
+  background-color: #FF0011; /* Neon Red */
+}
+#d4 {
+  background-color: #FFFF00; /* Neon Yellow */
+}
+#d5 {
+  background-color: #fb5604; /* Neon Orange FD5F00 */
+}
+#d6 {
+  background-color: #F909B2; /* Neon Purple */
+}
+#d7 {
+  background-color: #00FF99; /* Neon Mint Green */
+}
+#d8 {
+  background-color: #04D1E1; /* Neon Dark Blue */
+}
+#d9 {
+  background-color: #0000FF; /* Neon Blue */
+}
+#d10 {
+  background-color: #00FFFF; /* Light Blue */
+}
