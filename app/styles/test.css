@@ -1,5 +1,7 @@
 body {
   background-color: black;
+  background-image: url("/assets/images/neon-open.png");
+  background-repeat: no-repeat;
   color: white;
 }
 .block {
@@ -8,7 +10,11 @@ body {
   float: left;
   border-radius: 5px;
 }
-
+#logo {
+  background-image: url("/assets/images/neon.png");
+  background-position: center;
+  background-size: 120px 120px;
+}
 #d1 {
   background-color: #FF4066; /* Neon Pink */
 }

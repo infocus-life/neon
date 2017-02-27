@@ -10,6 +10,11 @@
         url: '/',
         templateUrl: '/templates/home.html'
       })
+      .state('album', {
+        url: '/album',
+        controller: "AlbumController as album",
+        templateUrl: '/templates/album.html'
+      })
       .state('colortest', {
         url: '/colortest',
         templateUrl: '/templates/colortest.html'
@@ -19,4 +24,3 @@
     .module('neon', ['ui.router'])
     .config(config);
 })();
-

@@ -1,0 +1,11 @@
+<div class="song-list">
+  <table class="song-table">
+    <tr class="song-row" ng-repeat="song in album.albumData.songs track by $index" ng-mouseover="hovered = true" ng-mouseleave="hovered = false">
+      <td class="song-item-number">{{$index+1}}</td>
+      <td class="song-item-title">{{song.title}}</td>
+      <td class="song-item-duration">{{song.duration}}</td>
+      <td class="song-item-icon"><a ng-click="album.albumSong.click(song)"><span ng-show="(song.playing||hovered)&&(!song.pausing)" class="ion-play"></span><span ng-show="song.pausing" class="ion-pause"></span></a></td>
+      <td class="song-item-wave"></td>
+    </tr>
+  </table>
+</div>
